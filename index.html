@@ -793,7 +793,26 @@
             </ul>
         </div>
     </div>
-
+<div class="project-item">
+    <div class="project-name">🐳 CloudSearch — Dockerized Flask App on AWS ECS Fargate</div>
+    <div class="project-tags">
+        <span class="project-tag">ECS Fargate</span>
+        <span class="project-tag">ECR</span>
+        <span class="project-tag">Docker</span>
+        <span class="project-tag">ALB</span>
+        <span class="project-tag">VPC</span>
+        <span class="project-tag">IAM</span>
+        <span class="project-tag">GitHub Actions</span>
+        <span class="project-tag">Python/Flask</span>
+        <span class="project-tag">AWS CLI</span>
+    </div>
+    <ul class="project-desc">
+        <li>Built and containerized a Google-style search web app using Python/Flask and gunicorn, deployed on AWS ECS Fargate via AWS CLI — no console clicking.</li>
+        <li>Pushed Docker image to Amazon ECR, created ECS cluster with custom VPC, public subnets across multiple AZs, Internet Gateway, and security groups.</li>
+        <li>Configured Application Load Balancer with health checks and auto-scaling (1–3 tasks) based on CPU utilization.</li>
+        <li>Built full CI/CD pipeline with GitHub Actions using a scoped-down IAM user — every push auto-builds, pushes to ECR, and redeploys the ECS service.</li>
+    </ul>
+</div>
     <!-- LEADERSHIP -->
     <div class="card">
         <div class="section-label">Leadership & Experience</div>
